@@ -17,7 +17,8 @@ if ($_FILES == "") {
     unlink("dist/img/" . $fotolama);
 }
 
-$query = "UPDATE mahasiswa SET nim='$nim', nama='$namamahasiswa', no_hp='$nomorhp', alamat='$alamat', id_prodi='$namaprodi', foto='$namaFile'  WHERE nim='$nimlama'";
+$query = "UPDATE mahasiswa SET NIM='$nim', Nama='$namamahasiswa', Nomor_Hp='$nomorhp', Alamat='$alamat', ID_Prodi='$namaprodi', F 
+oto='$namaFile'  WHERE nim='$nimlama'";
 
 mysqli_query($conn, $query);
 
