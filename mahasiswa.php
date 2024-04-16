@@ -43,7 +43,7 @@ while ($baris = mysqli_fetch_assoc($hasil)) {
                       </button>
                     </div>
                   </div>
-                </div>
+                </div>  
               </div>
               <!-- /.card-header -->
               <div class="card-body table-responsive p-0">
